@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#173e3b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Roary’s Diner" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/roary-180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/roary-192.png" />
     <meta name="description" content="Roary’s Diner Rush: Burger, Cola und Pommes holen und rechtzeitig servieren. Ein 3D-Arcadespiel im Browser." />
     <title>Roary’s — Diner Rush</title>
-    <script type="module" crossorigin src="./assets/index-IMKEuGeG.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-UlIx1zX5.css">
+    <script type="module" crossorigin src="./assets/index-Bdn-HQTI.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Bn_1J_uG.css">
   </head>
   <body>
     <div id="game-app" data-phase="menu">
@@ -22,11 +29,14 @@
           <button id="sound-button" class="icon-button" aria-label="Ton ausschalten" title="Ton an/aus"></button>
           <button id="help-button" class="icon-button" aria-label="Anleitung öffnen" title="So wird gespielt">?</button>
           <button id="pause-button" class="icon-button" aria-label="Spiel pausieren" title="Pause · P" disabled>Ⅱ</button>
+          <button id="fullscreen-button" class="icon-button" aria-label="Vollbild einschalten" aria-pressed="false" title="Vollbild einschalten" hidden></button>
         </nav>
+        <div class="hud-summary">
+          <div id="shift-banner" class="shift-banner"><span class="open-dot"></span><span id="shift-label">FRISCH AUF DEM TABLETT</span><span class="banner-divider">/</span><span id="shift-progress">FAST FOOD. FAST PAWS.</span></div>
+          <div id="combo" class="combo-badge" hidden></div>
+        </div>
       </header>
       <main id="game-stage" tabindex="0" aria-label="Spielfeld">
-        <div id="shift-banner" class="shift-banner"><span class="open-dot"></span><span id="shift-label">FRISCH AUF DEM TABLETT</span><span class="banner-divider">/</span><span id="shift-progress">FAST FOOD. FAST PAWS.</span></div>
-        <div id="combo" class="combo-badge" hidden></div>
         <div id="world-labels" aria-hidden="true"></div>
         <div class="swipe-cue" aria-hidden="true"><strong>↑ WISCHEN ↓</strong><small>Lang: zwei Stationen</small></div>
         <div class="action-cue" aria-hidden="true">RECHTS TIPPEN · HOLEN / SERVIEREN</div>
