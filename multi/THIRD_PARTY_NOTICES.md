@@ -1,5 +1,13 @@
 # Asset-Herkunft und Lizenzstatus
 
+## Laufzeit-Texturbudget für iPhone/iPad (25.10.2026)
+
+Die zwei eingebetteten 8192er JPEG-Texturen des aktiven GLBs werden auf iOS beim
+ImageBitmap-Decodieren mit 2048 × 2048 Pixeln angefordert. Keine Quelltexturen oder
+GLB-Dateien umgeschrieben, keine Geometrie-/Anatomieänderung, keine neuen Assets,
+Provider-Aufträge oder Lizenzannahmen. Andere Plattformen behalten die bisherigen
+Auflösungen. Technischer Ursprung: eigener Code in `device-profile.js` / `view.js`.
+
 ## Kieferöffnung statt gemeinsamer Gebiss-Verformung (25.10.2026)
 
 Eigener Code in `src/game/roary-mouth.js`: Laufzeitkopie des bestehenden Meshes

@@ -30,6 +30,11 @@ Assets eines Browserspiels bleiben technisch herunterladbar und einsehbar.
 
 ## Ein-Datei-Release · 25.10.2026
 
+Aktueller iOS-Startpatch: iPhone/iPad nutzen beim Laden kleinere Modelltexturen
+und einen direkten Renderer ohne Nachbearbeitungs-Puffer. Desktop/Android behalten
+den bisherigen Grafikpfad. 105 Tests bestanden; echter iPhone-Test steht noch aus.
+Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=ios1).
+
 Die aktuelle Startseite ist selbstständig: Spielcode, Modell, Texturen, Musik,
 23 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.
 Mit korrigierter Sprechanimation: Oberkiefer fest, Unterkiefer öffnet/schließt.
