@@ -1,5 +1,18 @@
 # Roary’s — Diner Rush · 2026.10.25
 
+## Mobiles Querformat · landscape1
+
+- Automatische Vollbild-Anfrage auf Touchgeräten im kurzen Querformat; bei
+  Aktivierungssperre ein weiterer Versuch bei der nächsten echten Eingabe.
+- Bewusstes Verlassen wird respektiert, erneutes Scharfschalten erst nach
+  Hochformat. Keine Orientierungssperre; Desktop und Home-Screen-Modus erhalten.
+- Scoreboard im Querformat linksbündig mit Safe-Area-Abständen.
+- 115 Tests bestanden; Single-/Multi-Build und Modellvalidierung erfolgreich.
+- Browserprüfung: echtes Vollbild, externes Verlassen, Quer-/Hochformatlayout,
+  lange Werte und simulierte Safe Areas. Dreh-Erkennung durch automatisierte
+  Tests geprüft; keine neue physische Smartphone-Abnahme.
+- Optimierte Texturen unverändert; Single-File bleibt Standard.
+
 ## 1080p-Texturoptimierung · textures1
 
 - Beide aktuellen Spielfassungen verwenden optimierte Texturen: Roary 2048 statt

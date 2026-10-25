@@ -30,11 +30,17 @@ Assets eines Browserspiels bleiben technisch herunterladbar und einsehbar.
 
 ## Ein-Datei-Release · 25.10.2026
 
-Aktuell: **1080p-optimierte Texturen in beiden Versionen**. Roary nutzt zwei
+Aktuell: **mobiles Querformat mit linksbündigem Scoreboard und automatischer
+Vollbild-Anfrage**. Falls der Browser eine Berührung verlangt, folgt ein weiterer
+Versuch bei der nächsten Eingabe. Bewusstes Verlassen wird respektiert; keine
+Orientierungssperre. Auf iPhones hängt Vollbild von der Browserunterstützung ab;
+die Multi-File-Version unterstützt weiterhin die Home-Bildschirm-Web-App.
+
+**1080p-optimierte Texturen in beiden Versionen**: Roary nutzt zwei
 2K-Texturen statt 8K, Leder 512 statt 1024 Pixel. Kamera, Anatomie und Spielregeln
 bleiben erhalten. iPhone/iPad behalten den direkten speichersparenden Renderer.
 Details: [Texturbudget und Bildvergleich](TEXTURE-OPTIMIZATION.md).
-Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=textures1).
+Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=landscape1).
 
 Die aktuelle Startseite ist selbstständig: Spielcode, Modell, Texturen, Musik,
 23 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.
