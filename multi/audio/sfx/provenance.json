@@ -1,0 +1,274 @@
+{
+  "sourceManifest": "assets/audio/suno-sfx-2026-10-24/prepared-v1/manifest.json",
+  "license": "Suno account terms; NOT CC0. Commercial distribution rights not independently cleared.",
+  "humanListeningQA": "pending",
+  "processing": "Byte-identical prepared files; no further trimming, fading or generation.",
+  "tracks": [
+    {
+      "id": "tray_slide",
+      "type": "one-shot",
+      "prompt": "Single dry realistic game sound effect: a plastic fast-food serving tray sliding quickly across a scratched stainless-steel diner counter, short textured scrape, ending with one soft clack. About 0.8 seconds, immediate attack, close-up Foley, worn American roadside diner. Isolated one-shot, no voices, no music, no rhythm, no other restaurant sounds, no reverb.",
+      "source": "originals/tray_slide.m4a",
+      "source_sha256": "f8e617bede3d6874b3672049f96ef6ae8616aadf4023b67283c964787426a542",
+      "source_duration_seconds": 2.0135,
+      "source_metadata": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100",
+        "comment": "made with suno; created=2026-10-24T15:08:58Z; id=2efb4fa0-0fb7-457b-9bcc-e64642090249"
+      },
+      "source_codec": "opus",
+      "edit": {
+        "start_seconds": 0,
+        "end_seconds": 2.0135
+      },
+      "duration_seconds": 2.0135,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -20.431779210153582,
+      "loop_boundary_step": null,
+      "files": [
+        {
+          "path": "prepared-v1/tray_slide.wav",
+          "sha256": "b3ba6b5534d6479cef208bcfe71bc202c40864bdc4f21dfbea2a61a6db8299f8",
+          "bytes": 193340
+        },
+        {
+          "path": "prepared-v1/tray_slide.mp3",
+          "sha256": "a77382c65bfa4bfaa14592062a9d9658cfa2d2b374eafcaee555c7d33b9d61e9",
+          "bytes": 33068
+        }
+      ],
+      "full_decode_passed": true,
+      "human_listening_qa": "pending",
+      "license": "Suno account terms; not CC0; release rights not independently verified",
+      "url": "/audio/sfx/tray_slide.mp3",
+      "runtime_sha256": "a77382c65bfa4bfaa14592062a9d9658cfa2d2b374eafcaee555c7d33b9d61e9",
+      "runtime_bytes": 33068
+    },
+    {
+      "id": "cola_pour",
+      "type": "one-shot",
+      "prompt": "Dry isolated realistic sound effect: an old soda fountain dispensing fizzy cola into a paper cup with a few ice cubes. Brief valve click, liquid pour and soft carbonation fizz, then stops cleanly. About 1.5 seconds. Close-up Foley for an old American diner game. No speech, no music, no rhythm, no crowd, no reverberation.",
+      "source": "originals/cola_pour.m4a",
+      "source_sha256": "3f8599b315d72e38ea056eb7f11675270b0cb26765dfcd644a29bc060bee1f68",
+      "source_duration_seconds": 4.3735,
+      "source_metadata": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100",
+        "comment": "made with suno; created=2026-10-24T15:13:37Z; id=614953ec-6c86-4cb2-b0c6-74e9f9d8fb9d"
+      },
+      "source_codec": "opus",
+      "edit": {
+        "start_seconds": 0,
+        "end_seconds": 4.3735
+      },
+      "duration_seconds": 4.3735,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -28.69374658994031,
+      "loop_boundary_step": null,
+      "files": [
+        {
+          "path": "prepared-v1/cola_pour.wav",
+          "sha256": "6c8d9f37072520092fc6590479e002c4f6abf74afffe6ba70ad15a0294a90ad3",
+          "bytes": 419900
+        },
+        {
+          "path": "prepared-v1/cola_pour.mp3",
+          "sha256": "b0112c78233c780fc6b751d261e75ee363bbae81178d8044807315f88e1e2965",
+          "bytes": 71084
+        }
+      ],
+      "full_decode_passed": true,
+      "human_listening_qa": "pending",
+      "license": "Suno account terms; not CC0; release rights not independently verified",
+      "url": "/audio/sfx/cola_pour.mp3",
+      "runtime_sha256": "b0112c78233c780fc6b751d261e75ee363bbae81178d8044807315f88e1e2965",
+      "runtime_bytes": 71084
+    },
+    {
+      "id": "fryer_bubbling",
+      "type": "loop",
+      "prompt": "Quiet realistic deep fryer oil bubbling and gently crackling as french fries cook in an old roadside diner. Steady fine sizzling texture with soft irregular little bubbles. Four-second seamless environmental loop. Close perspective, restrained and unobtrusive. Only fryer sounds, no music, no rhythm, no voices, no bell, no other kitchen equipment.",
+      "source": "originals/fryer_bubbling.m4a",
+      "source_sha256": "5c18fc969672a06566a48f0c5730053fcf1851ac06d2cdcaa1f6667227e033a5",
+      "source_duration_seconds": 14.4935,
+      "source_metadata": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100",
+        "comment": "made with suno; created=2026-10-24T15:14:48Z; id=a7928215-84d8-48a8-ba68-cd7cf4add58c"
+      },
+      "source_codec": "opus",
+      "edit": {
+        "start_seconds": 2,
+        "end_seconds": 6.25,
+        "crossfade_seconds": 0.25
+      },
+      "duration_seconds": 4,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -25.305389519569065,
+      "loop_boundary_step": 0.000030517578125,
+      "files": [
+        {
+          "path": "prepared-v1/fryer_bubbling.wav",
+          "sha256": "e78b0d7595ae7437f59a691c9a5718cd52f46fe24d04126acc31fb9e3745420d",
+          "bytes": 384044
+        },
+        {
+          "path": "prepared-v1/fryer_bubbling.mp3",
+          "sha256": "3b72099c286bb5bcd8b7df8b73bb335ae49ad67b96f4b1bb59b80d4ff78e110a",
+          "bytes": 64940
+        }
+      ],
+      "full_decode_passed": true,
+      "human_listening_qa": "pending",
+      "license": "Suno account terms; not CC0; release rights not independently verified",
+      "url": "/audio/sfx/fryer_bubbling.wav",
+      "runtime_sha256": "e78b0d7595ae7437f59a691c9a5718cd52f46fe24d04126acc31fb9e3745420d",
+      "runtime_bytes": 384044
+    },
+    {
+      "id": "grill_sizzle",
+      "type": "loop",
+      "prompt": "Realistic burger patty gently sizzling on an old flat-top steel griddle. Steady soft greasy hiss with occasional tiny crackles, warm low midrange, less bubbly than a deep fryer. Four-second seamless environmental loop for a worn American diner. Close-up quiet Foley only. No music, no rhythm, no speech, no crowd, no utensils, no flames roaring.",
+      "source": "originals/grill_sizzle.m4a",
+      "source_sha256": "0259e78febd4fb54747472f9b07326e8b9f4ed8f3d29f47ec706433c9633d064",
+      "source_duration_seconds": 13.1735,
+      "source_metadata": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100",
+        "comment": "made with suno; created=2026-10-24T15:15:46Z; id=141c6003-402e-4817-92a4-e7136a3e715d"
+      },
+      "source_codec": "opus",
+      "edit": {
+        "start_seconds": 2,
+        "end_seconds": 6.25,
+        "crossfade_seconds": 0.25
+      },
+      "duration_seconds": 4,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -26.012950788986892,
+      "loop_boundary_step": 0.000152587890625,
+      "files": [
+        {
+          "path": "prepared-v1/grill_sizzle.wav",
+          "sha256": "dce9d17ad59bad2b9a772bf9cee50fbadb196d496948a9e7ce129910c4552b08",
+          "bytes": 384044
+        },
+        {
+          "path": "prepared-v1/grill_sizzle.mp3",
+          "sha256": "a0f358a5d5634c00c0ab0f0660115df21252efc85f8688395eec706fae282397",
+          "bytes": 64940
+        }
+      ],
+      "full_decode_passed": true,
+      "human_listening_qa": "pending",
+      "license": "Suno account terms; not CC0; release rights not independently verified",
+      "url": "/audio/sfx/grill_sizzle.wav",
+      "runtime_sha256": "dce9d17ad59bad2b9a772bf9cee50fbadb196d496948a9e7ce129910c4552b08",
+      "runtime_bytes": 384044
+    },
+    {
+      "id": "door_bell",
+      "type": "one-shot",
+      "prompt": "One small worn mechanical shop door bell ringing as a customer opens an old American diner door. A short delicate double jingle with a slightly imperfect metallic rattle and a quick natural decay. About 0.8 seconds. Warm nostalgic realistic close-up Foley. Isolated single event, no music, no melody, no voices, no footsteps, no ambience.",
+      "source": "originals/door_bell.m4a",
+      "source_sha256": "6078ae2a0620177cf74a2df451f2fb4764ff4ce266587a6f19da4d68a1beb96b",
+      "source_duration_seconds": 2.0135,
+      "source_metadata": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100",
+        "comment": "made with suno; created=2026-10-24T15:16:56Z; id=32f99c51-bc72-42fc-b6b8-4b916d51a189"
+      },
+      "source_codec": "opus",
+      "edit": {
+        "start_seconds": 0,
+        "end_seconds": 2.0135
+      },
+      "duration_seconds": 2.0135,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -23.623943475294308,
+      "loop_boundary_step": null,
+      "files": [
+        {
+          "path": "prepared-v1/door_bell.wav",
+          "sha256": "8a7d399192cea5fd938e37640b393dd2d6e26e730557585160f6433f8010bb6f",
+          "bytes": 193340
+        },
+        {
+          "path": "prepared-v1/door_bell.mp3",
+          "sha256": "fc1db039861df821d823f66e0244fd686cba8f0cd1a1e69a2e771200df5a633a",
+          "bytes": 33068
+        }
+      ],
+      "full_decode_passed": true,
+      "human_listening_qa": "pending",
+      "license": "Suno account terms; not CC0; release rights not independently verified",
+      "url": "/audio/sfx/door_bell.mp3",
+      "runtime_sha256": "fc1db039861df821d823f66e0244fd686cba8f0cd1a1e69a2e771200df5a633a",
+      "runtime_bytes": 33068
+    },
+    {
+      "id": "cash_register",
+      "type": "one-shot",
+      "prompt": "One old mechanical diner cash register completing a sale: a short button clack, one modest warm metallic ding, and a brief drawer click. About one second, immediate dry attack and quick decay. Restrained satisfying realistic game feedback, not a musical reward fanfare. No speech, no music, no melody, no crowd, no repetition.",
+      "source": "originals/cash_register.m4a",
+      "source_sha256": "277801f49c59367d9759252b151722c55233de1999e353b99902e9ddc0b7c45a",
+      "source_duration_seconds": 2.0135,
+      "source_metadata": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100",
+        "comment": "made with suno; created=2026-10-24T15:18:13Z; id=b8d7f1c9-5128-4fd1-9024-ec00142e72f7"
+      },
+      "source_codec": "opus",
+      "edit": {
+        "start_seconds": 0,
+        "end_seconds": 2.0135
+      },
+      "duration_seconds": 2.0135,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0003622493859567,
+      "rms_dbfs": -24.487977148063848,
+      "loop_boundary_step": null,
+      "files": [
+        {
+          "path": "prepared-v1/cash_register.wav",
+          "sha256": "4f56cb50bb9448879a0cf86d3f83afc0c3f2a8d5d6f2be62a913b2c525cff1c1",
+          "bytes": 193340
+        },
+        {
+          "path": "prepared-v1/cash_register.mp3",
+          "sha256": "1bd1307a6fd2ceffe78ad5764aecb97b4dc7a61c71ca315cb44de8b12434b97f",
+          "bytes": 33068
+        }
+      ],
+      "full_decode_passed": true,
+      "human_listening_qa": "pending",
+      "license": "Suno account terms; not CC0; release rights not independently verified",
+      "url": "/audio/sfx/cash_register.mp3",
+      "runtime_sha256": "1bd1307a6fd2ceffe78ad5764aecb97b4dc7a61c71ca315cb44de8b12434b97f",
+      "runtime_bytes": 33068
+    }
+  ]
+}

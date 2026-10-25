@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provenance": "User supplied; authorized for use as background music in this project. No CC0 claim; provider/release license not supplied.",
+  "conversion": "ffmpeg, AAC-LC 160k stereo 48kHz; no creative edits or normalization",
+  "tracks": [
+    {
+      "id": "bouncy-blues-shuffle",
+      "title": "Bouncy Blues Shuffle",
+      "source": "Bouncy Blues Shuffle.m4a",
+      "sourceCodec": "opus",
+      "sourceSha256": "a175af3e5c976a946cd0808b4678c4edff2d0bf19349fcfdd3ebe04ae40480d1",
+      "url": "/audio/music/bouncy-blues-shuffle.m4a",
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 78.8135,
+      "bytes": 1653445,
+      "sha256": "93c570314b8d9a30a40c3cfdd71442a5a1ebbef50ae2722f6e09e22bfd674be0"
+    },
+    {
+      "id": "greasy-groove",
+      "title": "Greasy Groove",
+      "source": "Greasy Groove.m4a",
+      "sourceCodec": "opus",
+      "sourceSha256": "880294fef730c5d5869ea3b6d3be3d87bf4e94146c0722baf18b8e933db74423",
+      "url": "/audio/music/greasy-groove.m4a",
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 89.5735,
+      "bytes": 1861086,
+      "sha256": "6d466659f29dc882b12dbc8e113ea2903b8ccea7a6138f43ef4f1c15692a98d1"
+    },
+    {
+      "id": "held-phrase",
+      "title": "Held Phrase",
+      "source": "Held Phrase.m4a",
+      "sourceCodec": "opus",
+      "sourceSha256": "474a2a2dc62076ad3e779d3e1523f3735c535f119d6d68729f4c5952ed5cf324",
+      "url": "/audio/music/held-phrase.m4a",
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 184.0135,
+      "bytes": 3735286,
+      "sha256": "28854bb3c792f25f305e7f5cfa5a70e860bcc378b37976b7c02f7514fd9e33af"
+    }
+  ]
+}

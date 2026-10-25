@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#173e3b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Roary’s Diner" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/roary-180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/roary-192.png" />
+    <meta name="description" content="Roary’s Diner Rush: Burger, Cola und Pommes holen und rechtzeitig servieren. Ein 3D-Arcadespiel im Browser." />
+    <title>Roary’s — Diner Rush</title>
+    <script type="module" crossorigin src="./assets/index-ClofkQjH.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DT1a1I2d.css">
+  </head>
+  <body>
+    <div id="game-app" data-phase="menu">
+      <header class="game-header">
+        <a class="game-brand" href="./" aria-label="Roary’s Diner Rush"><span class="w-logo" aria-hidden="true">W</span><span>ROARY’S<small>DINER RUSH</small></span></a>
+        <div class="scoreboard" aria-label="Spielstand">
+          <div class="score-block"><span>PUNKTE</span><strong id="score">0000</strong></div>
+          <div class="score-block best-block"><span>REKORD</span><strong id="best">0000</strong></div>
+          <div class="lives-block"><span>GEDULD</span><div id="lives" aria-label="3 Leben"></div><span id="lives-count" class="sr-only">3</span></div>
+        </div>
+        <nav class="header-actions" aria-label="Spieloptionen">
+          <button id="sound-button" class="icon-button" aria-label="Ton ausschalten" title="Ton an/aus"></button>
+          <button id="help-button" class="icon-button" aria-label="Anleitung öffnen" title="So wird gespielt">?</button>
+          <button id="pause-button" class="icon-button" aria-label="Spiel pausieren" title="Pause · P" disabled>Ⅱ</button>
+          <button id="fullscreen-button" class="icon-button" aria-label="Vollbild einschalten" aria-pressed="false" title="Vollbild einschalten" hidden></button>
+        </nav>
+        <div class="hud-summary">
+          <div id="shift-banner" class="shift-banner"><span class="open-dot"></span><span id="shift-label">FRISCH AUF DEM TABLETT</span><span class="banner-divider">/</span><span id="shift-progress">FAST FOOD. FAST PAWS.</span></div>
+          <div id="combo" class="combo-badge" hidden></div>
+        </div>
+      </header>
+      <main id="game-stage" tabindex="0" aria-label="Spielfeld">
+        <div id="world-labels" aria-hidden="true"></div>
+        <div class="swipe-cue" aria-hidden="true"><strong>↑ WISCHEN ↓</strong><small>Lang: zwei Stationen</small></div>
+        <div class="action-cue" aria-hidden="true">RECHTS TIPPEN · HOLEN / SERVIEREN</div>
+        <div id="toast" class="game-toast" role="status" aria-live="polite"></div>
+        <div id="modal-layer" class="modal-layer"></div>
+      <div id="game-status" class="game-status">
+        <div class="orders" aria-label="Bestellungen an den drei Theken">
+          <div class="order-card" id="order-lane-0" data-lane="0"><span class="row-caption">REIHE 1</span><span class="order-items">Noch keine Bestellung</span><span class="patience-track"><i></i></span></div>
+          <div class="order-card" id="order-lane-1" data-lane="1"><span class="row-caption">REIHE 2</span><span class="order-items">Noch keine Bestellung</span><span class="patience-track"><i></i></span></div>
+          <div class="order-card" id="order-lane-2" data-lane="2"><span class="row-caption">REIHE 3</span><span class="order-items">Noch keine Bestellung</span><span class="patience-track"><i></i></span></div>
+        </div>
+        <div class="action-controls">
+          <div id="held" class="held-item" data-food="none"><span class="held-icon"></span><span id="held-label">Tablett leer</span></div>
+          <span id="action-text" role="status">Cola holen</span>
+        </div>
+        <div class="control-notes"><span id="input-hint" aria-live="polite">↑ ↓ oder W / S wechseln · Leertaste: Aktion</span><span id="music-track" aria-live="polite" hidden></span><span id="served-label"><span id="served-count" data-value="0">0</span> Artikel serviert</span></div>
+      </div>
+      </main>
+    </div>
+    <audio id="background-music" preload="metadata" loop aria-label="Level-Hintergrundmusik"></audio>
+    <audio id="intro-speech" preload="auto" aria-label="Roarys aufgenommene Stimme"></audio>
+    <noscript>Roary’s Diner Rush benötigt JavaScript und einen Browser mit WebGL.</noscript>
+  </body>
+</html>

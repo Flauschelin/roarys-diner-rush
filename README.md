@@ -3,7 +3,13 @@
 Ein spielbares 3D-Browserspiel in einem alten American Diner: Hilf Roary,
 Burger, Cola und Pommes rechtzeitig an drei Tresen zu servieren.
 
-**[Direkt spielen](https://flauschelin.github.io/roarys-diner-rush/)**
+**[Direkt spielen – Single-File (Standard)](https://flauschelin.github.io/roarys-diner-rush/)**
+
+**[Multi-File-Version spielen](https://flauschelin.github.io/roarys-diner-rush/multi/)**
+
+Beide Fassungen enthalten denselben aktuellen Spielstand inklusive korrigierter
+Mundanimation. Single-File lädt alles als eine HTML-Datei. Multi-File lädt Code,
+Modell, Texturen und Audio separat und bietet das Home-Screen-Manifest.
 
 ## Steuerung
 
@@ -36,6 +42,9 @@ Doppelklick-Start wurde vom Nutzer bestätigt; die automatisierte Browserprüfun
 erfolgte über HTTP, nicht über file://. Keine externen Spieldateien erforderlich.
 Ältere Laufzeitdateien bleiben zur Kompatibilität im Repository, werden von der
 aktuellen Single-File-Startseite aber nicht nachgeladen.
+
+Die aktuelle Multi-File-Fassung liegt getrennt im Ordner `multi/`; die Standard-
+Startseite und der Single-File-Download bleiben unverändert.
 
 Work-in-progress-Demo, keine abgeschlossene AAA-Produktion. Eine vollständige
 Geräte- und Hörabnahme steht noch aus. Die Single-File-Fassung hat kein separates

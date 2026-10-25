@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "generator": "tools/bake-diner-weathering.py",
+  "blenderVersion": "5.2.3 LTS",
+  "engine": "Cycles CPU",
+  "license": "original project assets; no third-party texture inputs",
+  "method": "Cycles EMIT bake for color/roughness; tangent NORMAL bake from procedural bump. UV-boundary edge masks, not curvature.",
+  "materials": [
+    {
+      "id": "counter",
+      "resolution": [
+        2048,
+        256
+      ],
+      "files": [
+        {
+          "role": "color",
+          "path": "/textures/diner-weathering/counter_color.png",
+          "bytes": 512407,
+          "sha256": "7edf591c87dc982806588d69c5e06934da5909461fe5683a571906f1566a825a"
+        },
+        {
+          "role": "roughness",
+          "path": "/textures/diner-weathering/counter_roughness.png",
+          "bytes": 359181,
+          "sha256": "d3a3b9c87629face4e29e4fc301bea9030a9fb3d1efee244f9cdbbce35af1aa2"
+        },
+        {
+          "role": "normal",
+          "path": "/textures/diner-weathering/counter_normal.png",
+          "bytes": 499635,
+          "sha256": "9f2caba581aafba5d3a85af023e6900725d6166e02d32ea576e5007d7a6b967a"
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "files": [
+        {
+          "role": "color",
+          "path": "/textures/diner-weathering/kitchen_color.png",
+          "bytes": 552892,
+          "sha256": "595a05f7f1d0f88a09baf7a4b8b2e4520520d33360b67a5a295a9078cf424b0b"
+        },
+        {
+          "role": "roughness",
+          "path": "/textures/diner-weathering/kitchen_roughness.png",
+          "bytes": 364659,
+          "sha256": "64e6d01a8a5cc4b0af61f1c2900c08f4db04d0477b1a3322d563dfd5c79d9f76"
+        },
+        {
+          "role": "normal",
+          "path": "/textures/diner-weathering/kitchen_normal.png",
+          "bytes": 36643,
+          "sha256": "e072cd0125207373c01ae161183c934eea76dd00c244bf705aaf728dcc3f0882"
+        }
+      ]
+    },
+    {
+      "id": "paint",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "files": [
+        {
+          "role": "color",
+          "path": "/textures/diner-weathering/paint_color.png",
+          "bytes": 177382,
+          "sha256": "b61ec370fe79c0764402a8aad5afc5798263b504714bc05fb5b58fc21dbc17ce"
+        },
+        {
+          "role": "roughness",
+          "path": "/textures/diner-weathering/paint_roughness.png",
+          "bytes": 184865,
+          "sha256": "3e873bb084bddaef9762a978f66b71ec8b1cbb12e73e3c466f5bd3c54d093c1a"
+        },
+        {
+          "role": "normal",
+          "path": "/textures/diner-weathering/paint_normal.png",
+          "bytes": 20476,
+          "sha256": "604b79818d3934380a52e1ea7e5c8bcced85ab8dba86b3a3a655fd5d0fea599e"
+        }
+      ]
+    }
+  ]
+}

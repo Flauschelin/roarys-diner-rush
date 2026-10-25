@@ -1,0 +1,733 @@
+{
+  "license": "User-provided Suno samples; account terms apply, NOT CC0. Distribution rights not independently cleared.",
+  "processing": "Byte-identical copies of complete-v1 MP3s. No new generation, purchase or source modification.",
+  "humanListeningQA": "pending; user explicitly deferred hearing approval until after integration",
+  "subtitles": "Original main-chat sample list, punctuation corrected. Erfolg_02 omits final Fast (absent from supplied ASR). Zufall_03 wording needs human comparison; ASR unreliable.",
+  "tracks": [
+    {
+      "id": "intro_01",
+      "group": "intro",
+      "text": "Ich wollte mal etwas aus meinem Leben machen. Jetzt rieche ich nach Fritteuse und mein Chef nennt das Berufung. Bitte, hilf mir durch diese Schicht. Allein schaffe ich das nicht.",
+      "url": "/audio/voices/intro_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/intro_01.mp3",
+      "sha256": "d004ca5c580f9f2df1880209b0c617fc99f488a16732d160c2f9a50067bc6cb9",
+      "bytes": 229292,
+      "durationSeconds": 14.266292,
+      "sourceReport": {
+        "name": "intro_01",
+        "source": "intro_01.m4a",
+        "source_sha256": "c416e1db176a8db4f4564050c95df988aafaa037e8c83279562ceae10150e9ac",
+        "source_duration_seconds": 36.36,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            2.385354
+          ],
+          [
+            3.990417,
+            5.9737290000000005
+          ],
+          [
+            7.202375,
+            17.1
+          ]
+        ],
+        "duration_seconds": 14.266292,
+        "wav_sha256": "d6dd488e64cd758d598df10d5c2a821bf326fdf9f44a6a980662bd8480da0fd6",
+        "mp3_sha256": "d004ca5c580f9f2df1880209b0c617fc99f488a16732d160c2f9a50067bc6cb9",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "intro_02",
+      "group": "intro",
+      "text": "Mittagsansturm. Natürlich. Die anderen haben eine Mittagspause. Ich habe nur diese Theke und ein Leben auf Stand-by. Bitte lass mich hier nicht allein. Hilfst du mir noch einmal?",
+      "url": "/audio/voices/intro_02.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/intro_02.mp3",
+      "sha256": "a03d52b03386e51a1e789ffe6d77cef24e7e8380222eba49417f4461483d6beb",
+      "bytes": 206636,
+      "durationSeconds": 12.862313,
+      "sourceReport": {
+        "name": "intro_02",
+        "source": "intro_02.m4a",
+        "source_sha256": "8ba4bb188fa91617265b9d401e909717c1a9e03b1eff4a3d4eb7acf378b89cc2",
+        "source_duration_seconds": 48.88,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.498167
+          ],
+          [
+            2.778667,
+            3.926854
+          ],
+          [
+            5.329167,
+            7.5071460000000005
+          ],
+          [
+            8.691125000000001,
+            10.514396
+          ],
+          [
+            11.3445,
+            13.052874999999998
+          ],
+          [
+            14.137813000000001,
+            16.212833
+          ],
+          [
+            17.870854,
+            19.416417
+          ],
+          [
+            20.96425,
+            21.85
+          ]
+        ],
+        "duration_seconds": 12.862313,
+        "wav_sha256": "62593f8d8a533697a3cd90271c531259fcf1def152e12eab93eb345d6ab1dce1",
+        "mp3_sha256": "a03d52b03386e51a1e789ffe6d77cef24e7e8380222eba49417f4461483d6beb",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "intro_03",
+      "group": "intro",
+      "text": "Noch eine Schicht. Ich bin so müde davon, jeden Tag freundlich zu tun, während mein Leben zwischen Burgern und Pommes vorbeizieht. Bitte hilf mir. Bring mich irgendwie bis zum Feierabend.",
+      "url": "/audio/voices/intro_03.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/intro_03.mp3",
+      "sha256": "20daafae56453e747486341725b1f70870400f7b5ce07899cff2011c64f0ac09",
+      "bytes": 198188,
+      "durationSeconds": 12.316313,
+      "sourceReport": {
+        "name": "intro_03",
+        "source": "intro_03.m4a",
+        "source_sha256": "1a001e776ea1d574844f123674ee26c79916fd7a1af3a342f0726edb5148f078",
+        "source_duration_seconds": 19.96,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.359812
+          ],
+          [
+            2.917875,
+            4.719333
+          ],
+          [
+            5.793625,
+            7.92675
+          ],
+          [
+            8.724375,
+            11.821499999999999
+          ],
+          [
+            12.931646,
+            14.292561999999998
+          ],
+          [
+            15.736125000000001,
+            18.3
+          ]
+        ],
+        "duration_seconds": 12.316313,
+        "wav_sha256": "2f57984d54b3aeb12b6aeb6d83e0f2366da3272411868d21293e4b2aa35d686f",
+        "mp3_sha256": "20daafae56453e747486341725b1f70870400f7b5ce07899cff2011c64f0ac09",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "fehler_01",
+      "group": "fehler",
+      "text": "Falsche Bestellung. Immerhin bin ich konsequent überfordert.",
+      "url": "/audio/voices/fehler_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/fehler_01.mp3",
+      "sha256": "15d3ee10e117bfee0183e6a369e4454e7edc91e22fc5f770c6307106b50a3b43",
+      "bytes": 84140,
+      "durationSeconds": 5.199917,
+      "sourceReport": {
+        "name": "fehler_01",
+        "source": "fehler_01-raw.m4a",
+        "source_sha256": "4bddd05ef2e15d29ad2ec035a1d145f9277091a6064de71e4535023bd4450c4e",
+        "source_duration_seconds": 117.56,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.527958
+          ],
+          [
+            2.5364579999999997,
+            4.797313
+          ],
+          [
+            5.438896,
+            6.85
+          ]
+        ],
+        "duration_seconds": 5.199917,
+        "wav_sha256": "d364567de1311ed92fe3205869663f8d57b3c93f3d3768161ce75c31bf2be3cd",
+        "mp3_sha256": "15d3ee10e117bfee0183e6a369e4454e7edc91e22fc5f770c6307106b50a3b43",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "fehler_02",
+      "group": "fehler",
+      "text": "Das war keine Cola. Das war mein letzter Rest Konzentration.",
+      "url": "/audio/voices/fehler_02.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/fehler_02.mp3",
+      "sha256": "3c2b4b74c407ea427f8d6a28b7cf13223637f4be863a6b1b709073e2c4acb76f",
+      "bytes": 82220,
+      "durationSeconds": 5.082958,
+      "sourceReport": {
+        "name": "fehler_02",
+        "source": "fehler_02-raw.m4a",
+        "source_sha256": "9f9dc367457e941712e50adbc2d51b85f0fdc81314693a4b974d2569a7fdcee2",
+        "source_duration_seconds": 144.84,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.591646
+          ],
+          [
+            2.3622919999999996,
+            4.284062
+          ],
+          [
+            5.130458,
+            6.7
+          ]
+        ],
+        "duration_seconds": 5.082958,
+        "wav_sha256": "d1d59b4c534e9f16ea116733f37874a9a0d83d453b66a7a72b5f0f1bec7f56e0",
+        "mp3_sha256": "3c2b4b74c407ea427f8d6a28b7cf13223637f4be863a6b1b709073e2c4acb76f",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "fehler_03",
+      "group": "fehler",
+      "text": "Na wunderbar. Jetzt ist sogar der Burger enttäuscht von mir.",
+      "url": "/audio/voices/fehler_03.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/fehler_03.mp3",
+      "sha256": "4d0286cb4e7ba1766bfaf81c45f5430f9a513aec83826b3a92b32f44700e1034",
+      "bytes": 80300,
+      "durationSeconds": 4.958042,
+      "sourceReport": {
+        "name": "fehler_03",
+        "source": "fehler_03-raw.m4a",
+        "source_sha256": "afe470e50d0cef9fd50aaf743bd9e7701b8f7d2d12ededd5d4cef493eae77285",
+        "source_duration_seconds": 97.88,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.271562
+          ],
+          [
+            2.548479,
+            4.563708
+          ],
+          [
+            5.42875,
+            7.1
+          ]
+        ],
+        "duration_seconds": 4.958042,
+        "wav_sha256": "374b7a6331cbe3515bdff2b3d4de203677957eb1e85bca681bca1f4c84934c03",
+        "mp3_sha256": "4d0286cb4e7ba1766bfaf81c45f5430f9a513aec83826b3a92b32f44700e1034",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "fehler_04",
+      "group": "fehler",
+      "text": "Bitte sag mir, dass das niemand gesehen hat.",
+      "url": "/audio/voices/fehler_04.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/fehler_04.mp3",
+      "sha256": "cc4293c0c7e66975145f8fbefe52ca3fc076b6d3281694439d7811b3147240e4",
+      "bytes": 65708,
+      "durationSeconds": 4.05,
+      "sourceReport": {
+        "name": "fehler_04",
+        "source": "fehler_04-raw.m4a",
+        "source_sha256": "3958cdc20b33fb689834e001ecc896848307d239dbc2785ba460a9906bc4a8ef",
+        "source_duration_seconds": 83,
+        "retained_source_spans_seconds": [
+          [
+            1.2,
+            5.25
+          ]
+        ],
+        "duration_seconds": 4.05,
+        "wav_sha256": "5d2419167eed6a2fcf4ae66245c3bac02a2a9f57e9770986fcb6c785f1da5ca1",
+        "mp3_sha256": "cc4293c0c7e66975145f8fbefe52ca3fc076b6d3281694439d7811b3147240e4",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "kunde_weg_01",
+      "group": "kunde_weg",
+      "text": "Der darf einfach gehen. Beneidenswert.",
+      "url": "/audio/voices/kunde_weg_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/kunde_weg_01.mp3",
+      "sha256": "819f12caa40159f95a380311831094383e7fa4d7ab58e55ab0b7fc5b968aaf55",
+      "bytes": 51884,
+      "durationSeconds": 3.191667,
+      "sourceReport": {
+        "name": "kunde_weg_01",
+        "source": "kunde_weg_01-raw.m4a",
+        "source_sha256": "237d8fca7c9755b344bc13241e4f9d6b447fe927655df2f70e37e0d0994099b9",
+        "source_duration_seconds": 65.16,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.3965619999999999
+          ],
+          [
+            2.6048959999999997,
+            4.4
+          ]
+        ],
+        "duration_seconds": 3.191667,
+        "wav_sha256": "bc105a87c5c1f85026c3f9dcb0e12ea4e28cd9fac0734afef9143e46e3977617",
+        "mp3_sha256": "819f12caa40159f95a380311831094383e7fa4d7ab58e55ab0b7fc5b968aaf55",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "kunde_weg_02",
+      "group": "kunde_weg",
+      "text": "Ein Kunde weniger. Leider zählt mein Chef anders.",
+      "url": "/audio/voices/kunde_weg_02.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/kunde_weg_02.mp3",
+      "sha256": "f3ef9a599192808fc5a317c0e8c6963338db0ea049ae3774598d52904ec034e2",
+      "bytes": 58412,
+      "durationSeconds": 3.580583,
+      "sourceReport": {
+        "name": "kunde_weg_02",
+        "source": "kunde_weg_02-raw.m4a",
+        "source_sha256": "f08923c78d8f30f085cce8a9e5caf998a6168c2a926cbc5f94c0a3ecddbf7008",
+        "source_duration_seconds": 79.92,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.94225
+          ],
+          [
+            2.661667,
+            4.3
+          ]
+        ],
+        "duration_seconds": 3.580583,
+        "wav_sha256": "963bb600fc678ac38ccc30f14fb715c0e8fba0641cd6e53ea3edff16d6451fcb",
+        "mp3_sha256": "f3ef9a599192808fc5a317c0e8c6963338db0ea049ae3774598d52904ec034e2",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "kunde_weg_03",
+      "group": "kunde_weg",
+      "text": "Bleib wenigstens du noch hier. Bitte.",
+      "url": "/audio/voices/kunde_weg_03.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/kunde_weg_03.mp3",
+      "sha256": "445b03a34d0901eab2725a87c60579757067936331391843cdb99ca59a57bedc",
+      "bytes": 46124,
+      "durationSeconds": 2.821229,
+      "sourceReport": {
+        "name": "kunde_weg_03",
+        "source": "kunde_weg_03-raw.m4a",
+        "source_sha256": "8ccf5b74ba661f584182732a7a2bf18cc44421556a6c02f59679255b6cfab32c",
+        "source_duration_seconds": 116.8,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            1.923479
+          ],
+          [
+            3.6022499999999997,
+            4.5
+          ]
+        ],
+        "duration_seconds": 2.821229,
+        "wav_sha256": "24ba8b566296d0e9d27e1a9aa4922fbe351d6d38768b01008f6bfb8e97f479bd",
+        "mp3_sha256": "445b03a34d0901eab2725a87c60579757067936331391843cdb99ca59a57bedc",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "ansturm_01",
+      "group": "ansturm",
+      "text": "Oh gut. Eine Reisegruppe. Mein persönlicher Endgegner.",
+      "url": "/audio/voices/ansturm_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/ansturm_01.mp3",
+      "sha256": "e96e51b562cdbf6d0d7c45b5d9c18211c968b762d989e8a659a837cf476e6ce9",
+      "bytes": 66476,
+      "durationSeconds": 4.1,
+      "sourceReport": {
+        "name": "ansturm_01",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            0,
+            4.1
+          ]
+        ],
+        "duration_seconds": 4.1,
+        "wav_sha256": "4a44af5327e09b0b4cb8b28676811966f300f9ce7a7a1f192d71f30e7a2a2416",
+        "mp3_sha256": "e96e51b562cdbf6d0d7c45b5d9c18211c968b762d989e8a659a837cf476e6ce9",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "ansturm_02",
+      "group": "ansturm",
+      "text": "Drei Theken. Zwei Vorderpfoten. Wer hat das geplant?",
+      "url": "/audio/voices/ansturm_02.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/ansturm_02.mp3",
+      "sha256": "be095e194fafee82499520ec0de168774fc9b9691e83fa8266fb8faa8561eeb2",
+      "bytes": 70700,
+      "durationSeconds": 4.35,
+      "sourceReport": {
+        "name": "ansturm_02",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            4.2,
+            8.55
+          ]
+        ],
+        "duration_seconds": 4.35,
+        "wav_sha256": "22eec42725fc060ba7225bc0a1a2d29cf486466074b82aa7da1c9d6e3b53ca12",
+        "mp3_sha256": "be095e194fafee82499520ec0de168774fc9b9691e83fa8266fb8faa8561eeb2",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "ansturm_03",
+      "group": "ansturm",
+      "text": "Sie kommen alle gleichzeitig. Haben die sich gegen mich verabredet?",
+      "url": "/audio/voices/ansturm_03.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/ansturm_03.mp3",
+      "sha256": "cc9f69f15917be7ce142070087efe2ebbb3736af08a9490f2f52cd51dcbfd7aa",
+      "bytes": 69932,
+      "durationSeconds": 4.3,
+      "sourceReport": {
+        "name": "ansturm_03",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            8.65,
+            12.95
+          ]
+        ],
+        "duration_seconds": 4.3,
+        "wav_sha256": "e5a230e3db1720d574c3f90587f22356a9ade63857816e5bae4bfe584d37631b",
+        "mp3_sha256": "cc9f69f15917be7ce142070087efe2ebbb3736af08a9490f2f52cd51dcbfd7aa",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "zufall_01",
+      "group": "zufall",
+      "text": "Ich rieche inzwischen auch im Traum nach Pommes.",
+      "url": "/audio/voices/zufall_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/zufall_01.mp3",
+      "sha256": "3ba50b71798eae0cd78c0ee1d92a29deb2453e121a6fc22406b8cb9a4453143c",
+      "bytes": 51884,
+      "durationSeconds": 3.18,
+      "sourceReport": {
+        "name": "zufall_01",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            12.97,
+            16.15
+          ]
+        ],
+        "duration_seconds": 3.18,
+        "wav_sha256": "4c254226ffd253ddc1f840f8322c7276a9043a835caa8937f264dc26cbebe864",
+        "mp3_sha256": "3ba50b71798eae0cd78c0ee1d92a29deb2453e121a6fc22406b8cb9a4453143c",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "zufall_02",
+      "group": "zufall",
+      "text": "Mitarbeiter des Monats. Wir sind übrigens nur zu zweit. Der andere ist die Fritteuse.",
+      "url": "/audio/voices/zufall_02.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/zufall_02.mp3",
+      "sha256": "63735ec668735a97d085065ac82a5a86d801ebaedddd3b7872d65bc090858d1c",
+      "bytes": 109868,
+      "durationSeconds": 6.8,
+      "sourceReport": {
+        "name": "zufall_02",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            16.3,
+            23.1
+          ]
+        ],
+        "duration_seconds": 6.8,
+        "wav_sha256": "c4ff24c1ec34735f2bb18712a4703e9a391971f6d4ea81cb919cd677f8f47fc8",
+        "mp3_sha256": "63735ec668735a97d085065ac82a5a86d801ebaedddd3b7872d65bc090858d1c",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "zufall_03",
+      "group": "zufall",
+      "text": "Mein Chef sagt, ich soll mehr lächeln. Das hier ist schon die Vollversion.",
+      "url": "/audio/voices/zufall_03.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/zufall_03.mp3",
+      "sha256": "e75952b1373a3bf289863964d1fa6f16a9bc74c45f4dc3416e672d280423bd03",
+      "bytes": 102188,
+      "durationSeconds": 6.328188,
+      "sourceReport": {
+        "name": "zufall_03",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            23.12,
+            27.04375
+          ],
+          [
+            27.795562,
+            30.2
+          ]
+        ],
+        "duration_seconds": 6.328188,
+        "wav_sha256": "e2412c8242b758aa7ff47edf59feed3bf5902ef9f0d167b508ceefca3c32dd4c",
+        "mp3_sha256": "e75952b1373a3bf289863964d1fa6f16a9bc74c45f4dc3416e672d280423bd03",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "zufall_04",
+      "group": "zufall",
+      "text": "Früher habe ich von Freiheit geträumt. Heute von einer Sitzgelegenheit.",
+      "url": "/audio/voices/zufall_04.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/zufall_04.mp3",
+      "sha256": "cf4a4bde2c915e97f1b4a5fa4e2b02bc5b9950a2449f68f73e3daaea2902372a",
+      "bytes": 75308,
+      "durationSeconds": 4.65,
+      "sourceReport": {
+        "name": "zufall_04",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            31.6,
+            36.25
+          ]
+        ],
+        "duration_seconds": 4.65,
+        "wav_sha256": "621137239386acee569dd78ed6d96dd9a87f41c8a1bdc3612a40a29bf4b4ad99",
+        "mp3_sha256": "cf4a4bde2c915e97f1b4a5fa4e2b02bc5b9950a2449f68f73e3daaea2902372a",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "zufall_05",
+      "group": "zufall",
+      "text": "Falls du einen Ausgang siehst: Merk ihn dir. Für später.",
+      "url": "/audio/voices/zufall_05.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/zufall_05.mp3",
+      "sha256": "d0f337d0719194656af6520055ae27d76327467d153e477ab88b72ae20fb6561",
+      "bytes": 65324,
+      "durationSeconds": 4.03,
+      "sourceReport": {
+        "name": "zufall_05",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            36.27,
+            40.3
+          ]
+        ],
+        "duration_seconds": 4.03,
+        "wav_sha256": "629afb38e801c72adef36d52206d4a0c25f72bf4777b93b0dd4dbbea22c32d8d",
+        "mp3_sha256": "d0f337d0719194656af6520055ae27d76327467d153e477ab88b72ae20fb6561",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "erfolg_01",
+      "group": "erfolg",
+      "text": "Richtige Bestellung. Das sollten wir kurz würdigen.",
+      "url": "/audio/voices/erfolg_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/erfolg_01.mp3",
+      "sha256": "b19e244bd1e5b2e3acb104f5428f9d6448e5c7b3ff16dc4857b13cf5f4bf5c45",
+      "bytes": 61868,
+      "durationSeconds": 3.8,
+      "sourceReport": {
+        "name": "erfolg_01",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            40.7,
+            44.5
+          ]
+        ],
+        "duration_seconds": 3.8,
+        "wav_sha256": "5b3b84ee5254f6086f08d1f152972c779a68f9f84a6dbe61b34e5237f1d95b3f",
+        "mp3_sha256": "b19e244bd1e5b2e3acb104f5428f9d6448e5c7b3ff16dc4857b13cf5f4bf5c45",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "erfolg_02",
+      "group": "erfolg",
+      "text": "Mit dir fühlt sich dieser Job fast erträglich an.",
+      "url": "/audio/voices/erfolg_02.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/erfolg_02.mp3",
+      "sha256": "bad6b5bb2b8d9721f59147730905ca941444d087efd7cd2e3d9b92e2c27d1410",
+      "bytes": 73388,
+      "durationSeconds": 4.53,
+      "sourceReport": {
+        "name": "erfolg_02",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            44.52,
+            49.05
+          ]
+        ],
+        "duration_seconds": 4.53,
+        "wav_sha256": "25503f8c49f6d143302a422085f218a3b49d4f67fce615a810b1df5c249e7e8e",
+        "mp3_sha256": "bad6b5bb2b8d9721f59147730905ca941444d087efd7cd2e3d9b92e2c27d1410",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "erfolg_03",
+      "group": "erfolg",
+      "text": "Danke. Allein hätte ich längst mit der Cola diskutiert.",
+      "url": "/audio/voices/erfolg_03.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/erfolg_03.mp3",
+      "sha256": "4df009a45583eca67769830adb9db48747ed79278cd70fa6e10d17bfe7514eb8",
+      "bytes": 74156,
+      "durationSeconds": 4.57,
+      "sourceReport": {
+        "name": "erfolg_03",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            49.08,
+            53.65
+          ]
+        ],
+        "duration_seconds": 4.57,
+        "wav_sha256": "a70973f23385892438ff80bc101e241bfa14313fbba6d3e67d52adddf9bfbe52",
+        "mp3_sha256": "4df009a45583eca67769830adb9db48747ed79278cd70fa6e10d17bfe7514eb8",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "feierabend_01",
+      "group": "feierabend",
+      "text": "Wir haben es geschafft. Bitte sag meinem Chef nicht, dass ich noch Energie übrig habe.",
+      "url": "/audio/voices/feierabend_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/feierabend_01.mp3",
+      "sha256": "42543682b1d14b311711a64be6ea8b067539f2aabbc85d369c0cda4354b607b7",
+      "bytes": 108332,
+      "durationSeconds": 6.7,
+      "sourceReport": {
+        "name": "feierabend_01",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            53.7,
+            60.4
+          ]
+        ],
+        "duration_seconds": 6.7,
+        "wav_sha256": "9c93e2600ee7cff49e9684918cac781222a702578fa9b8b1d318b428fffccd93",
+        "mp3_sha256": "42543682b1d14b311711a64be6ea8b067539f2aabbc85d369c0cda4354b607b7",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    },
+    {
+      "id": "gameover_01",
+      "group": "gameover",
+      "text": "Heute hat es nicht gereicht. Lass mich kurz durchatmen. Dann versuchen wir es noch mal. Zusammen.",
+      "url": "/audio/voices/gameover_01.mp3",
+      "source": "assets/audio/suno-voices-2026-10-24/complete-v1/gameover_01.mp3",
+      "sha256": "e1f8f3bd05a2467a9b8903a6fbbca2f819b070b369f63c584f6837738f32d32f",
+      "bytes": 90284,
+      "durationSeconds": 5.575646,
+      "sourceReport": {
+        "name": "gameover_01",
+        "source": "batch_remaining13-raw.m4a",
+        "source_sha256": "fc7c9535634717b7462e0ed1e29fdab169ae4a9d6feb0640bf3f07053b878a65",
+        "source_duration_seconds": 72.473,
+        "retained_source_spans_seconds": [
+          [
+            61.7,
+            63.702354
+          ],
+          [
+            64.33541699999999,
+            66.10754200000001
+          ],
+          [
+            67.198833,
+            69
+          ]
+        ],
+        "duration_seconds": 5.575646,
+        "wav_sha256": "a27fbe954835b162db13ccb39c858ecd9bec5c7f08a7c8dcaba526b16aa3e6c9",
+        "mp3_sha256": "e1f8f3bd05a2467a9b8903a6fbbca2f819b070b369f63c584f6837738f32d32f",
+        "verification": "Offline source transcription, silence analysis, full MP3 decode; human listening still required.",
+        "license": "Suno account terms apply; not CC0 and no independent rights clearance performed."
+      }
+    }
+  ]
+}
