@@ -7,6 +7,12 @@ Burger, Cola und Pommes rechtzeitig an drei Tresen zu servieren.
 
 **[Multi-File-Version spielen](https://flauschelin.github.io/roarys-diner-rush/multi/)**
 
+**[iPhone/iPad: Roary als Web-App einrichten](IPHONE-WEBAPP.md)**
+
+Auf iPhone/iPad erklärt der Button „Web-App“ oben rechts die manuelle Einrichtung
+über Safari. Er installiert nichts automatisch und verschwindet im erkannten
+Web-App-Modus. Zum Lesen pausiert eine laufende Schicht.
+
 Beide Fassungen enthalten denselben aktuellen Spielstand inklusive korrigierter
 Mundanimation. Single-File lädt alles als eine HTML-Datei. Multi-File lädt Code,
 Modell, Texturen und Audio separat und bietet das Home-Screen-Manifest.
@@ -40,7 +46,7 @@ die Multi-File-Version unterstützt weiterhin die Home-Bildschirm-Web-App.
 2K-Texturen statt 8K, Leder 512 statt 1024 Pixel. Kamera, Anatomie und Spielregeln
 bleiben erhalten. iPhone/iPad behalten den direkten speichersparenden Renderer.
 Details: [Texturbudget und Bildvergleich](TEXTURE-OPTIMIZATION.md).
-Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=landscape1).
+Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=webapp1).
 
 Die aktuelle Startseite ist selbstständig: Spielcode, Modell, Texturen, Musik,
 23 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.

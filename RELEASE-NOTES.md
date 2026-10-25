@@ -1,5 +1,20 @@
 # Roary’s — Diner Rush · 2026.10.25
 
+## iPhone/iPad-Web-App-Hilfe · webapp1
+
+- Neuer „Web-App“-Button oben rechts auf erkannten iPhones/iPads; ausgeblendet
+  im erkannten Standalone-Modus. Öffnet eine Anleitung, keinen Installationsdialog.
+- Safari-Schritte und Link zur Multi-File-Web-App. Eigene Markdown-Anleitung
+  `IPHONE-WEBAPP.md`, auch im Multi-File-ZIP enthalten und im README verlinkt.
+- Laufende Schicht pausiert beim Lesen und wird danach fortgesetzt; eine bereits
+  pausierte Schicht bleibt pausiert. Sprache stoppt, vorgemerkte Eingaben werden
+  gelöscht. Menülink und Tastaturzugang ergänzen den Button.
+- 119 Tests bestanden; beide Builds und Modellvalidierung erfolgreich.
+- Browserprüfung mit explizit simuliertem iPhone-Detektor: Hoch-/Querformat,
+  Button ohne HUD-Überlappung, scrollbare Anleitung, Menülink, Schließen sowie
+  Pause/Fortsetzen. Keine tatsächliche iPhone-Installation geprüft.
+- Single-File bleibt Standard. Keine Änderung von Grafik, Anatomie oder Regeln.
+
 ## Mobiles Querformat · landscape1
 
 - Automatische Vollbild-Anfrage auf Touchgeräten im kurzen Querformat; bei
