@@ -1,0 +1,22 @@
+{
+  "targetResolution": [1920,1080],
+  "devicePixelRatio": 1,
+  "baselineRun": "run_1792918809937_482f6e546c704151b6c49b99a0a027c0",
+  "comparisonRun": "run_1792919618595_45ff449383884f0cbc79148c7996d5f8",
+  "model": {
+    "sourcePath": "public/models/roary-meshy-animated.glb",
+    "sourceSha256": "f9981e85b9c916e5618707fe33de2e886733fe13008afd3dd4436274869db848",
+    "path": "public/models/roary-meshy-1080p.glb",
+    "sha256": "facdb06bfea970be09910227541ad79f8130f19137d8260bc0a40866a64b86c2",
+    "imageDimensions": [[2048,2048],[2048,2048]],
+    "sourceBytes": 13862052,
+    "bytes": 10283636,
+    "textureOnly": true,
+    "jpegQuality": 95
+  },
+  "leatherDimensions": [512,512],
+  "leatherReceipt": "public/textures/optimized/provenance.json",
+  "unloadedUnusedTexture": "/textures/polyhaven/dirty_tiles_color.jpg",
+  "comparison": {"introRoaryMaeMax":0.531,"introUpper40PercentMaeMax":0.563,"rgbScale":255},
+  "limits": "Six landscape views, not a guarantee for portrait or future zooms. Original texture files retained. No physical iPhone-12-mini validation."
+}

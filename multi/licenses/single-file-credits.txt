@@ -1,9 +1,32 @@
 Roary’s — Diner Rush · Ein-Datei-Release
 
-Enthält die unveränderten Spiel-Assets; keine Neulizenzierung. Suno ist NICHT CC0.
+Enthält auf 1080p optimierte Texturkopien; keine Neulizenzierung. Suno ist NICHT CC0.
 Der Nutzer hat im Hauptchat die erforderlichen Rechte bestätigt. Die Anbieterbedingungen bleiben gültig.
 
 # Asset-Herkunft und Lizenzstatus
+
+## Mip-gemessene 1080p-Texturvarianten (25.10.2026)
+
+Aktiv ist `public/models/roary-meshy-1080p.glb` statt der archivierten 8K-Fassung.
+Zwei eingebettete JPEGs auf 2048 × 2048, Blender 5.2.3, JPEG-Qualität 95; Farbkarte
+als sRGB, Rauheit/Metall als Nicht-Farbdaten. Keine Mesh-Neuexportierung: sämtliche
+nicht bildbezogenen BufferViews sowie Geometrie-/UV-/Skin-/Animationsdefinitionen
+sind bytegleich zum animierten Original. Fehlender linker Hinterfuß unverändert.
+Originaldateien und bestehende Anbieter-/Nutzungsrechte bleiben erhalten; keine
+CC0-Neulizenzierung des Hundemodells oder der Suno-Aufnahmen.
+
+Vorhandenes CC0-Leder von Poly Haven als 512er Kopien unter `textures/optimized`,
+Normalen nach Skalierung renormalisiert. Quelldateien unverändert. Der neue
+`provenance.json` bindet Quellen- und Ergebnisprüfsummen. Die nicht benutzte
+Farbkarte `dirty_tiles_color.jpg` wird nicht mehr geladen oder eingebettet;
+sichtbarer prozeduraler Boden sowie seine Normal-/Rauheitskarten bleiben erhalten.
+
+Messbasis: sechs 1920×1080-Ansichten mit farbigen Mips, danach zwölf eingefrorene
+Original-/4K-/2K-Vergleichspaare. Roary im Intro: 2K mittlere RGB-Abweichung maximal
+0,531/255; oberer 40%-Bereich maximal 0,563/255. 1:1-Detailvergleich geprüft.
+Versiegelte Läufe: `run_1792918809937_482f6e546c704151b6c49b99a0a027c0` und
+`run_1792919618595_45ff449383884f0cbc79148c7996d5f8`. Keine physische iPhone-Abnahme,
+keine behauptete FPS-Messung. Budget/Hashes: `assets/texture-optimization.json`.
 
 ## Laufzeit-Texturbudget für iPhone/iPad (25.10.2026)
 

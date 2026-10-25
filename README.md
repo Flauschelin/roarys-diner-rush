@@ -30,10 +30,11 @@ Assets eines Browserspiels bleiben technisch herunterladbar und einsehbar.
 
 ## Ein-Datei-Release · 25.10.2026
 
-Aktueller iOS-Startpatch: iPhone/iPad nutzen beim Laden kleinere Modelltexturen
-und einen direkten Renderer ohne Nachbearbeitungs-Puffer. Desktop/Android behalten
-den bisherigen Grafikpfad. 105 Tests bestanden; echter iPhone-Test steht noch aus.
-Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=ios1).
+Aktuell: **1080p-optimierte Texturen in beiden Versionen**. Roary nutzt zwei
+2K-Texturen statt 8K, Leder 512 statt 1024 Pixel. Kamera, Anatomie und Spielregeln
+bleiben erhalten. iPhone/iPad behalten den direkten speichersparenden Renderer.
+Details: [Texturbudget und Bildvergleich](TEXTURE-OPTIMIZATION.md).
+Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=textures1).
 
 Die aktuelle Startseite ist selbstständig: Spielcode, Modell, Texturen, Musik,
 23 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.
@@ -41,7 +42,11 @@ Mit korrigierter Sprechanimation: Oberkiefer fest, Unterkiefer öffnet/schließt
 
 **[Single-File herunterladen](https://github.com/Flauschelin/roarys-diner-rush/releases/latest)**
 
-Datei: `roarys-diner-rush-single.html`, etwa 43,7 MiB. SHA-256 steht in
+**[Multi-File als ZIP herunterladen](https://github.com/Flauschelin/roarys-diner-rush/releases/latest/download/roarys-diner-rush-multi.zip)**
+
+Datei: `roarys-diner-rush-single.html`, etwa **37,0 MiB** statt zuvor 43,7 MiB.
+ZIP: etwa **23,5 MiB**; entpacken und über einen lokalen Webserver bereitstellen.
+SHA-256 steht in
 `SHA256SUMS.txt`. Die Datei kann einzeln weitergegeben werden. Ein direkter
 Doppelklick-Start wurde vom Nutzer bestätigt; die automatisierte Browserprüfung
 erfolgte über HTTP, nicht über file://. Keine externen Spieldateien erforderlich.
@@ -49,7 +54,8 @@ erfolgte über HTTP, nicht über file://. Keine externen Spieldateien erforderli
 aktuellen Single-File-Startseite aber nicht nachgeladen.
 
 Die aktuelle Multi-File-Fassung liegt getrennt im Ordner `multi/`; die Standard-
-Startseite und der Single-File-Download bleiben unverändert.
+Startseite bleibt die Single-File-Fassung. Beide Downloads und beide Spieladressen
+nutzen die neuen optimierten Assets.
 
 Work-in-progress-Demo, keine abgeschlossene AAA-Produktion. Eine vollständige
 Geräte- und Hörabnahme steht noch aus. Die Single-File-Fassung hat kein separates

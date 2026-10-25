@@ -1,5 +1,24 @@
 # Roary’s — Diner Rush · 2026.10.25
 
+## 1080p-Texturoptimierung · textures1
+
+- Beide aktuellen Spielfassungen verwenden optimierte Texturen: Roary 2048 statt
+  8192 Pixel, CC0-Leder 512 statt 1024 Pixel. Logo und Küchenflächen unverändert.
+- Auswahl anhand farbiger GPU-Mips und sechs eingefrorener Original-/4K-/2K-
+  Vergleichsansichten. Geometrie, UVs, Gewichte und Animationsdaten bytegleich.
+- Maximal 1920×1080 tatsächliche 3D-Renderpixel, auch bei Retina/4K. iOS-Sparpfad
+  erhalten; keine Änderung von Kamera, Spielmechanik oder Roarys Anatomie.
+- Single-HTML ca. 37,0 statt 43,7 MiB; Multi-File als Website und ZIP (ca. 23,5 MiB).
+  Single-File bleibt die Standard-Spieladresse.
+- Beide Release-Builds und Modellvalidierung erfolgreich. 111/112 Tests bestanden;
+  einzig der bekannte Zugriffstest auf ein ursprüngliches Referenzfoto scheitert
+  an macOS EPERM. Keine Tests deaktiviert und keine Dateirechte verändert.
+- Browser: Single-File mit erfolgreicher Zustellung, Pause, Neustart, Sprache und
+  Stumm; Multi-File mit Start und emuliertem Hoch-/Querformat geprüft. Keine neue
+  physische iPhone-Abnahme oder vollständige Hörprüfung behauptet.
+
+## Frühere Änderungen
+
 ## iOS-Startpatch · ios1
 
 - Reaktion auf Safari-Abbruch unmittelbar nach fertig geladenem Startmenü.
