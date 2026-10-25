@@ -13,8 +13,8 @@ Auf iPhone/iPad erklärt der Button „Web-App“ oben rechts die manuelle Einri
 über Safari. Er installiert nichts automatisch und verschwindet im erkannten
 Web-App-Modus. Zum Lesen pausiert eine laufende Schicht.
 
-Beide Fassungen enthalten denselben aktuellen Spielstand inklusive korrigierter
-Mundanimation. Single-File lädt alles als eine HTML-Datei. Multi-File lädt Code,
+Beide Fassungen enthalten denselben aktuellen Spielstand inklusive Roarys neuen
+Persönlichkeitsmomenten. Single-File lädt alles als eine HTML-Datei. Multi-File lädt Code,
 Modell, Texturen und Audio separat und bietet das Home-Screen-Manifest.
 
 ## Steuerung
@@ -36,7 +36,15 @@ Assets eines Browserspiels bleiben technisch herunterladbar und einsehbar.
 
 ## Ein-Datei-Release · 25.10.2026
 
-Aktuell: **mobiles Querformat mit linksbündigem Scoreboard und automatischer
+Aktuell: **Roarys Persönlichkeit · personality1**: Küchenradio mit Chef und
+trockener Antwort, seltene Erfolgs- und Fehlerreaktionen, Dienstplan, Mitarbeiterfoto
+und stehen gebliebene Uhr. Nach der letzten Schicht bekommt Roary seinen eigenen
+Burger; die kleine Ergebniskarte lässt ihn und den Burger sichtbar.
+Fünf neue Sprachclips teilen den vorhandenen Einzel-Sprachkanal mit Untertiteln
+und Musikabsenkung. Hörabnahme offen, besonders Aussprache von „Burger“ im
+Feierabend-Clip; Details in den [Release-Hinweisen](RELEASE-NOTES.md).
+
+Weiterhin: **mobiles Querformat mit linksbündigem Scoreboard und automatischer
 Vollbild-Anfrage**. Falls der Browser eine Berührung verlangt, folgt ein weiterer
 Versuch bei der nächsten Eingabe. Bewusstes Verlassen wird respektiert; keine
 Orientierungssperre. Auf iPhones hängt Vollbild von der Browserunterstützung ab;
@@ -46,18 +54,18 @@ die Multi-File-Version unterstützt weiterhin die Home-Bildschirm-Web-App.
 2K-Texturen statt 8K, Leder 512 statt 1024 Pixel. Kamera, Anatomie und Spielregeln
 bleiben erhalten. iPhone/iPad behalten den direkten speichersparenden Renderer.
 Details: [Texturbudget und Bildvergleich](TEXTURE-OPTIMIZATION.md).
-Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=webapp1).
+Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=personality1).
 
 Die aktuelle Startseite ist selbstständig: Spielcode, Modell, Texturen, Musik,
-23 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.
+28 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.
 Mit korrigierter Sprechanimation: Oberkiefer fest, Unterkiefer öffnet/schließt.
 
 **[Single-File herunterladen](https://github.com/Flauschelin/roarys-diner-rush/releases/latest)**
 
 **[Multi-File als ZIP herunterladen](https://github.com/Flauschelin/roarys-diner-rush/releases/latest/download/roarys-diner-rush-multi.zip)**
 
-Datei: `roarys-diner-rush-single.html`, etwa **37,0 MiB** statt zuvor 43,7 MiB.
-ZIP: etwa **23,5 MiB**; entpacken und über einen lokalen Webserver bereitstellen.
+Datei: `roarys-diner-rush-single.html`, etwa **37,5 MiB** statt zuvor 43,7 MiB.
+ZIP: etwa **23,8 MiB**; entpacken und über einen lokalen Webserver bereitstellen.
 SHA-256 steht in
 `SHA256SUMS.txt`. Die Datei kann einzeln weitergegeben werden. Ein direkter
 Doppelklick-Start wurde vom Nutzer bestätigt; die automatisierte Browserprüfung

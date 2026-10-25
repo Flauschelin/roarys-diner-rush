@@ -1,0 +1,87 @@
+{
+  "license": "Suno account recordings, user-authorized existing plan; NOT CC0. No new subscription or purchase.",
+  "method": "Offline word-timing selection; raw downloads unchanged, no speed/pitch changes; mono 48kHz/128kbps, -18LUFS target, -1.5dBTP, short fades. Boss has radio band limiting and own seeded low-level crackle. Repeated generated takes discarded.",
+  "hearingReview": "Not yet performed; offline ASR and technical checks only.",
+  "samples": {
+    "boss": {
+      "id": "personality_boss",
+      "url": "/audio/personality/boss.mp3",
+      "text": "Wir sind hier eine Familie.",
+      "speaker": "Chef",
+      "duration": 2.85,
+      "sha256": "bea72d03c47c214d28456f3a65a2116c997c01d834aa8934855cb18f48bac058",
+      "sourceSha256": "cd74ac00e1115a29a28bc7a64727a4b8ddb6edbafef09c12ab5e3d3f7f829ee2",
+      "sourceFile": "raw/boss.mp3",
+      "cut": [
+        2,
+        4.85
+      ],
+      "sunoURL": "https://suno.com/song/ab6e7037-ef23-401a-91ba-1b31839a775f",
+      "radio": true
+    },
+    "adoption": {
+      "id": "personality_adoption",
+      "url": "/audio/personality/adoption.mp3",
+      "text": "Dann möchte ich adoptiert werden.",
+      "speaker": "Roary",
+      "duration": 2.15,
+      "sha256": "195821bb72d3d82ab139679ac1420d91954def5b5fc0e32d2ac0bbec909ed113",
+      "sourceSha256": "11db63d09422d965165ca6b3e32d5cbaac360a72e0d9585a8b3982ff21727966",
+      "sourceFile": "raw/roary-batch.mp3",
+      "cut": [
+        0,
+        2.15
+      ],
+      "sunoURL": "https://suno.com/song/8a0a6efa-fb5f-40d0-bc50-7ece952e2a2f",
+      "radio": false
+    },
+    "proud": {
+      "id": "personality_proud",
+      "url": "/audio/personality/proud.mp3",
+      "text": "Bitte erzähl niemandem, dass mir das gerade Spaß gemacht hat.",
+      "speaker": "Roary",
+      "duration": 5.74,
+      "sha256": "bc1703be842d1eca71327d47a49087a5ab8392a944a0b774e564cb8948713fdc",
+      "sourceSha256": "11db63d09422d965165ca6b3e32d5cbaac360a72e0d9585a8b3982ff21727966",
+      "sourceFile": "raw/roary-batch.mp3",
+      "cut": [
+        3.76,
+        9.5
+      ],
+      "sunoURL": "https://suno.com/song/8a0a6efa-fb5f-40d0-bc50-7ece952e2a2f",
+      "radio": false
+    },
+    "mistake": {
+      "id": "personality_mistake",
+      "url": "/audio/personality/mistake.mp3",
+      "text": "Wir sagen einfach, das war die Küche.",
+      "speaker": "Roary",
+      "duration": 3.27,
+      "sha256": "93446c170fb68ae56f6fd4d780212af1c5b19e8ae0b7bf7dfa00793503446b69",
+      "sourceSha256": "11db63d09422d965165ca6b3e32d5cbaac360a72e0d9585a8b3982ff21727966",
+      "sourceFile": "raw/roary-batch.mp3",
+      "cut": [
+        12.23,
+        15.5
+      ],
+      "sunoURL": "https://suno.com/song/8a0a6efa-fb5f-40d0-bc50-7ece952e2a2f",
+      "radio": false
+    },
+    "closing": {
+      "id": "personality_closing",
+      "url": "/audio/personality/closing.mp3",
+      "text": "Endlich Feierabend. Der Burger ist für mich? Danke.",
+      "speaker": "Roary",
+      "duration": 5.05,
+      "sha256": "bd46ef4817a46c1a1b14133f0b0efc1700d22414c50ea7f97ea7e62fe3b8822a",
+      "sourceSha256": "7bac8dbafd6a32c4f70f61922529b6f5688d17a9a527e355196941e5802c71ca",
+      "sourceFile": "raw/closing.m4a",
+      "cut": [
+        0,
+        5.05
+      ],
+      "sunoURL": "https://suno.com/song/ce6e8166-d189-471b-a827-b9a5bfce6475",
+      "radio": false
+    }
+  }
+}

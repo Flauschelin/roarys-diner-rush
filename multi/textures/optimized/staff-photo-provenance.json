@@ -1,0 +1,10 @@
+{
+  "asset": "roary-staff-photo.jpg",
+  "source": "User-provided Roary dog photo, WhatsApp Image 2026-10-17 at 19.17.01.jpeg",
+  "sourceSha256": "f80e4c73358993fcb88561399bbeef578d47a78c3d5eb4d8606b336bf8ea4835",
+  "sha256": "c69733adcc0dd4f9923fb472748fd877b220a46a16a4cbf54ac116745e77fbc5",
+  "dimensions": [256, 171],
+  "transform": "sips -Z 256; source preserved. Small game-prop derivative only. Runtime sepia tint is applied to the shared 1024x512 story atlas.",
+  "rights": "User-provided project asset; rights confirmed by user. Not CC0 and no general reuse permission.",
+  "fiction": "Employee-of-the-month caption/year is fictional diner storytelling, not a claim about when the source photograph was taken."
+}

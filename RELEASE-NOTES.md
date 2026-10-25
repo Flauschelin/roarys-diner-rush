@@ -1,5 +1,28 @@
 # Roary’s — Diner Rush · 2026.10.25
 
+## Roarys Persönlichkeit · personality1
+
+- Seltenes Küchenradio mit Chef und Roarys Antwort; sparsame stolze Serienreaktion
+  mit Schwanzwedeln und kurzer Fehlerblick zur Kamera.
+- Sichtbarer Feierabend: Bestellschild dimmt, Tablett ablegen, Entlastungsbewegung,
+  eigener Burger und erst danach kleine Ergebniskarte ohne verdeckten Burger.
+- Schiefer Dienstplan, Mitarbeiterfoto (2019 ist fiktive Hintergrundgeschichte)
+  und 17:55-Uhr teilen einen kleinen Texturatlas. Bestehendes Modell, fehlender
+  linker Hinterfuß, normale Kamera und Spielregeln erhalten.
+- Fünf neue Suno-Sprachclips im vorhandenen Einzelkanal: Chef, Adoption, Stolz,
+  Küchen-Ausrede und Feierabend. Untertitel, energieabhängige Mundbewegung,
+  Musikabsenkung und separate Stimmeneinstellungen bleiben erhalten. Kein CC0.
+- 129 Tests bestanden; Single-/Multi-Build und Modellvalidierung erfolgreich.
+- Browser: vier Reaktionsclips und Schlussclip vollständig abgespielt;
+  Unterbrechung durch Pause, Stumm und Neustart geprüft. Reaktionen als beschriftete
+  Vorschau, Sieg über echten Engine-Autoplayer mit allen drei Schichten geprüft.
+  Schlussansicht am Desktop sowie emuliert in Hoch- und Querformat kontrolliert.
+- Keine abschließende Hörkontrolle oder neue physische iPhone-Abnahme.
+  **Vorläufiger Feierabend-Clip:** automatische Transkription erkennt „Blöger“
+  statt „Burger“. ASR- oder Aussprachefehler noch durch Anhören zu klären.
+  Neue Stimmen folgen einer Stilbeschreibung, nicht einer garantierten Voice-ID.
+- Single-File bleibt Standard; beide Spielfassungen und Downloads aktualisiert.
+
 ## iPhone/iPad-Web-App-Hilfe · webapp1
 
 - Neuer „Web-App“-Button oben rechts auf erkannten iPhones/iPads; ausgeblendet

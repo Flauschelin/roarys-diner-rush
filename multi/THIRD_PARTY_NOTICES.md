@@ -417,6 +417,25 @@ gemischt. Keine Neumodellierung, keine Änderung an GLB/Blender, Texturen, Hautg
 oder Anatomie. Die GLB enthält weiterhin vier Quellclips; die neun Phasen entstehen
 in der Laufzeit. Bestehende Meshy-Rechtebedingungen bleiben unverändert.
 
+## Kleine Diner-Geschichten
+
+`public/textures/optimized/roary-staff-photo.jpg` ist eine 256-Pixel-Kopie des
+vom Nutzer bereitgestellten Roary-Fotos, ausschließlich als kleines Requisit
+im Spiel. Original unverändert; Quell-/Ausgabehashes und Transformation:
+`public/textures/optimized/staff-photo-provenance.json`. Kein CC0-Asset und keine
+pauschale Weiterverwendungserlaubnis. Die Jahreszahl im Mitarbeiterrahmen ist
+fiktive Hintergrundgeschichte. Dienstplan, Uhr und Bestellschild entstehen aus
+eigenem Canvas-Code als gemeinsame 1024×512-Textur mit Systemschrift, ohne neue
+externe Fonts, Shader oder Modelle. Radio und Feierabendrequisiten verwenden
+eigene Geometrie und vorhandene Spielmaterialien.
+
+Fünf zusätzliche Suno-Speech-Kommentare aus dem autorisierten bestehenden Konto:
+`public/audio/personality/`. Kein CC0. Exakte Skripte, Tone-Prompts, Rohaufnahmen,
+Schnitte und Prüfgrenzen: `assets/audio/suno-personality-2026-10-25/README.md`;
+öffentliche Herkunfts-/Hashdaten: `public/audio/personality/provenance.json`.
+Die Radioknackser sind eigene deterministische Klangbearbeitung, keine weitere
+fremde Aufnahme. Bestehende 23 Sprachsamples wurden nicht überschrieben.
+
 ## Home-Bildschirm-Symbole
 
 `public/icons/roary-180.png`, `roary-192.png` und `roary-512.png` sind eigene
