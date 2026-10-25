@@ -1,5 +1,18 @@
 # Roary’s — Diner Rush · 2026.10.25
 
+## Wandtafeln / Z-Fighting · wallfix1
+
+- Dienstplan und Mitarbeiterfoto lagen teilweise auf bzw. hinter dem vorhandenen
+  Fenster samt Streben und Stadtlichtern. Alle vier Wandtafeln sind jetzt mit
+  echter geometrischer Trennung davor montiert; Druckflächen haben zusätzlich
+  Abstand zur Trägerplatte. Kein Abschalten der Tiefenprüfung oder Sortiertrick.
+- Neuer Regressionstest für die tatsächlichen Geometrieabstände einschließlich
+  schiefer Tafeln. 130 Tests bestanden, beide Builds und Modellvalidierung erfolgreich.
+- Lokal im Browser aus normaler Spielkamera und Feierabend-Nahansicht geprüft;
+  keine neue physische Smartphone-Abnahme. Modell, Kamera, Beleuchtung und Regeln
+  unverändert. Hörprüfungsgrenzen aus personality1 bestehen weiterhin.
+- Single-File bleibt Standard; beide Spieladressen und Downloads aktualisiert.
+
 ## Roarys Persönlichkeit · personality1
 
 - Seltenes Küchenradio mit Chef und Roarys Antwort; sparsame stolze Serienreaktion

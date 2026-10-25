@@ -36,7 +36,12 @@ Assets eines Browserspiels bleiben technisch herunterladbar und einsehbar.
 
 ## Ein-Datei-Release · 25.10.2026
 
-Aktuell: **Roarys Persönlichkeit · personality1**: Küchenradio mit Chef und
+Aktuell: **Wandtafeln korrigiert · wallfix1**: Dienstplan, Mitarbeiterfoto, Uhr und
+Bestellschild liegen mit echtem Abstand vor den vorhandenen Fensterflächen und
+Streben. Druckflächen sind zusätzlich von ihren Trägerplatten getrennt.
+Kein Z-Fighting und keine Änderung an Kamera, Modell oder Spielregeln.
+
+Enthalten: **Roarys Persönlichkeit · personality1**: Küchenradio mit Chef und
 trockener Antwort, seltene Erfolgs- und Fehlerreaktionen, Dienstplan, Mitarbeiterfoto
 und stehen gebliebene Uhr. Nach der letzten Schicht bekommt Roary seinen eigenen
 Burger; die kleine Ergebniskarte lässt ihn und den Burger sichtbar.
@@ -54,7 +59,7 @@ die Multi-File-Version unterstützt weiterhin die Home-Bildschirm-Web-App.
 2K-Texturen statt 8K, Leder 512 statt 1024 Pixel. Kamera, Anatomie und Spielregeln
 bleiben erhalten. iPhone/iPad behalten den direkten speichersparenden Renderer.
 Details: [Texturbudget und Bildvergleich](TEXTURE-OPTIMIZATION.md).
-Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=personality1).
+Bei zwischengespeicherter alter Fassung: [neu laden mit Versionsparameter](https://flauschelin.github.io/roarys-diner-rush/?v=wallfix1).
 
 Die aktuelle Startseite ist selbstständig: Spielcode, Modell, Texturen, Musik,
 28 Sprachsamples, sechs Geräusche und Lizenzhinweise stecken in einer HTML-Datei.
